@@ -18,20 +18,146 @@ nav, ul, li{
 }
 
 .Hmargen{
-    margin-top: 1%;
+    margin-top: 2%;
     margin-left: 10%;
 }
 
+.Hmargen>a{
+    padding: 10px 10px;
+    color: #272727;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.Hmargen>a:hover{
+    border-radius: 10px;
+    background: linear-gradient(45deg, #9CA6F9, #FE8CCE);
+    color: #ffff;
+}
+
  .LiMargen{
-     margin-top: 1%;
-     margin-left: 2%;
+    margin-top: 2%;
+    margin-left: 3%;
+ }
+
+ .LiMargen>a{
+    padding: 10px 10px;
+    color: #272727;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;    
+ }
+
+ .LiMargen>a:hover{
+    border-radius: 10px;
+    background: linear-gradient(45deg, #9CA6F9, #FE8CCE);
+    color: #ffff;
  }
 
  .ChestMargen{
      float: right;
+     margin-right: 5%;
+     border-radius: 10px;
+     background: linear-gradient(135deg, #9CA6F9, #FE8CCE);
  }
 
+ .ChestMargen>a{
+    color: #ffff;
+    padding: 10px 10px;
+    font-size: 30px;
+ }
 
+.ChestMargen:hover{
+    border: 2px #ffff solid;
+}
+
+ .sidebar>ul>li{
+    margin: 70% 0;
+    transform: rotate(-90deg);
+ }
+
+.sidebar>ul>li>a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10%;
+}
+ 
+.sidebar>ul>li>a>i{
+    display: flex;
+    font-size: 35px;
+    color: #222D61;
+}
+
+.sidebar>ul>li>a>i>h5{
+    margin-top: 10%;
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #6b6b6b;
+    font-size: 15px;
+}
+
+#colecciones{
+    margin-top: 40%;
+    margin-left: 15%;
+    padding: 10px 40px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px 1px #6b6b6b;
+    background: linear-gradient(45deg, #52c2fa, #FE8CCE);
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.flechas{
+    padding: 10px 15px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #52c2fa, #fa72c1);
+    color: #dbdbdb;
+    border: 1px #b3b3b3 solid;
+    margin-top: 5%;
+}
+
+.flechas:hover, #colecciones:hover{
+    border: 2px #ffff solid;
+    color: #ffff;
+}
+
+.miTexto>h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #222D61;
+    font-size: 60px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.miTexto>h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    font-size: 22px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#btnIzq{
+    margin-left: 15%;
+}
+
+#btnDer{
+    margin-left: 5%;
+}
+
+#woman{
+    max-width: 850px;
+}
 
  /* -------------------------------------------------------------------------- */
  /*                                MEDIA QUERIES                               */
